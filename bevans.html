@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Brandon's Work Site</title>
+	<meta name="author" content="Brandon Evans" />
+	<meta name="description" content="Responsive Single-Page website, coded and modifed by Brandon Evans as an online portfolio." />
+	<meta name="keywords"  content="brandon,evans,work,history,portfolio,resume,denver,colorado,web,website,design,development,html,css,javascript,wordpress,github" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="styles/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+
+	<style>
+
+		/* Sections
+		 * --------------------------------------- */
+		#section0 img,
+		#section1 img{
+			margin: 20px 0 0 0;
+		}
+		#section2 img{
+			margin: 20px 0 0 52px;
+		}
+		#section3 img{
+			bottom: 0px;
+			position: absolute;
+			margin-left: -420px;
+		}
+		.intro p{
+			width: 50%;
+			margin: 0 auto;
+		}
+        
+        /* Fixed header and footer.
+        * --------------------------------------- */
+        #header, #footer{
+            position:fixed;
+            height: 65px;
+            display: block;
+            width: 100%;
+            background: #333;
+            z-index: 9;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px 0 20px 0;
+        }
+
+        #header{
+            top:0px;
+        }
+        #footer{
+            bottom:0px;
+        }
+
+	</style>
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="scripts/style.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['rgba(184, 186, 228, 0.15)', 'rgba(184, 186, 228, 0.15)', 'rgba(184, 186, 228, 0.15)', 'rgba(184, 186, 228, 0.15)', 'rgba(184, 186, 228, 0.15)'],
+				anchors: ['home', 'services', 'resume', 'contact'],
+				menu: '#menu'
+			});
+
+		});
+	</script>
+
+</head>
+<body>
+
+    <div id="header">
+        <a href="#home">
+            <div id="logo"></div>
+            <div id="main_title" class="title">
+                <h1>BRANDON EVANS</h1>
+                </br></br>
+                <h2>DESIGN / DEVELOPMENT / MARKETING</h2>
+            </div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li data-menuanchor="home"><a class="nav" href="#home">Home</a></li>
+                <li data-menuanchor="services"><a class="nav" href="#services">Services</a></li>
+                <li data-menuanchor="resume"><a class="nav" href="#resume">Resume</a></li>
+                <li data-menuanchor="contact"><a class="nav" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+<div id="fullpage_container">
+    <div id="fullpage">
+
+        <div class="section" id="section0">
+            <div class="page_container" id="page_container0">
+                <div class="title_container" id="title_container0">
+                    <div class="intro">
+                        <h1>HELLO</h1>
+                        <p>I like to design and develop all things virtual.<br>
+                    </div>
+                    
+                    <div class="page_description" id="home_description">
+                        <p> 
+                            I began learning programming many years ago, but only recently taught myself to code for web design. In 2013, I embarked on a journey to study web development in-depth, and learn all I can about creating and hosting virtual content for the internet.
+                            <br><br>
+                            My focus has always been on virtual media; majoring in digital animation my first year of college, and switching to audio production my second year. I'm now learning to make interactive websites with responsive design. In my free time, I make virtual content of all sorts, from websites to music and art, all using specialized computer software programs. I also enjoy writing.
+                            <br><br>
+                            Producing and Hosting Virtual Content like this takes many years to learn, and can cost a lot of time and money. I offer competetive rates as my technical experience is limited, and can promise the full dedication of a young passionate designer just entering the field.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section1">
+            <div class="page_container" id="page_container1">
+
+                <div class="title_container" id="title_container1">
+                    <div class="intro">
+                        <h1>Services</h1>
+                        <p>What services can I offer you?</p>
+                    </div>
+                    <div class="page_description" id="services_description">
+                        <p>                
+I can produce and manage website content, or offer online marketing services, among many other things. My focus is currently on web development, but my abilities in virtual media are broad in scope. I offer full flexibility with my work and assisting your needs. I am always seeking to learn and create more.
+<br><br>
+In bold are the programs I am proficient in; the others are programs I have basic knowledge in, and am interested in learning more about.
+                        </p>
+                    </div>
+                </div>
+
+            <div class="slide">
+                <div class="intro">
+                    <br><br><br><br><br><br>
+                        <p><u>WEB DESIGN:</u></p>
+                            <ul>
+                                <b><li>HTML/HTML5</li>
+                                <li>CSS/CSS3</li>
+                                <li>WordPress</li>
+                                <li>Bootstrap3</li></b>
+                                <li>Javascript/jQuery</li>
+                                <li>PHP</li>
+                            </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <br><br><br><br><br><br>
+                        <p><u>SOUND DESIGN:</u></p>
+                            <ul>
+                                <b><li>Adobe Audition</li>
+                                <li>Audacity</li>
+                                <li>Ableton Live</li>
+                                <li>FL Studio</li></b></li>
+                                <li>Reason</li>
+                                <li>PureData</li>
+                                <li>Chuck</li>
+                            </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <br><br><br><br><br><br>
+                        <p><u>GRAPHIC DESIGN:</u></p>
+                            <ul>
+                                <b><li>Adobe Photoshop</li>
+                                <li>Adobe Flash</li></b>
+                                <li>Adobe Illustrator</li>
+                                <li>Adobe Dreamweaver</li>
+                            </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <br><br><br><br><br><br>
+                        <p><u>MARKETING</u></p>
+                            <ul>
+                                <li>Substantial knowledge in Search Engine Optimization, Metadata Efficiency and Google Services. I can host and manage websites through GitHub, or cPanel and phpMyAdmin. Knowledge in promoting content through Facebook and networking with Social Media.</li>
+                            </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <br><br><br><br><br><br>
+                        <p><u>WRITING:</u></p>
+                            <ul>
+                                <li>I can also offer writing services. I have writing experience in marketing and advertising, as well as informative white paper and research articles. Topics include (but not limited to) Science and Technology, Art and Culture, Sales and Promotion, News Reports and Mass Media.</li>
+                            </ul>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="section" id="section2">
+            <div class="page_container" id="page_container2">
+
+                <div class="title_container" id="title_container2">
+                    <div class="intro">
+                        <h1>Resume</h1>
+                        <p>Work that I've done and am currently doing.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section3">
+            <div class="page_container" id="page_container">
+
+                <div class="title_container" id="title_container3">
+                    <div class="intro">
+                        <h1>Contact Me</h1>
+                        <p>
+                            evansb854@gmail.com
+                            <br>
+                            (720) xxx-xxxx
+                            <br>
+                            Denver, CO
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>
